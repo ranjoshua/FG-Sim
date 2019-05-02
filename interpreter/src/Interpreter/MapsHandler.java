@@ -75,12 +75,6 @@ public class MapsHandler {
 	}
 	
 	public static void updateNotGenericAddress(List<Double> values) {
-		//while (values.size() != NotGenericAddress.keySet().size()) {
-		//	try {
-		//		Thread.sleep(100);
-		//	} catch (InterruptedException e) {}
-		//}
-		
 		int i = 0;
 		Iterator<Address> it = NotGenericAddress.keySet().iterator();
 		while (it.hasNext() && i < values.size()) {
