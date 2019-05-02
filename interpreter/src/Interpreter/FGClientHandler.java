@@ -7,8 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FGClientHandler implements ClientHandler { // this ClientHandler should handle MatrixMaze problems.
-
+public class FGClientHandler implements ClientHandler { 
+	
 	@Override
 	public void handleClient(InputStream inFromClient) throws Exception {
 		try {
